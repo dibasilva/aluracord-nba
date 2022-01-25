@@ -35,7 +35,6 @@ function GlobalStyle() {
 
 function Titulo(props) {
     const Tag = props.tag || 'h1';
-    console.log(props.children);
 
     return (
         <>
@@ -75,8 +74,8 @@ export default function PaginaInicial() {
             <Box
                 styleSheet={{
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    backgroundColor: appConfig.theme.colors.primary[500],
-                    backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+                    backgroundColor: appConfig.theme.colors.primary['050'],
+                    backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/10/chase-center-arena.jpg)',
                     backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
                 }}
             >
